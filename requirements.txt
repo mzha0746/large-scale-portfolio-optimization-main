@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.1
+cvxpy>=1.4
+clarabel>=0.7          # SOCP/conic solver (required for robust opt + risk parity)
+osqp>=0.6
+scikit-learn>=1.3      # Ledoit-Wolf covariance shrinkage
+matplotlib>=3.8
+scipy>=1.11
+yfinance>=0.2          # optional: real S&P 500 data
+gurobipy>=11.0         # optional: academic licence at gurobi.com/academia
+pulp>=2.8              # fallback MIP solver (CBC bundled)
